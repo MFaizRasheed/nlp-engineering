@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"C:/Users/faiz/Desktop/Projectss/nlp-engineering\" && .venv/Scripts/python.exe -c \"import pandas as pd; df = pd.read_csv\\('data/ai_ml_course_reviews.csv'\\); print\\(df.head\\(\\)\\); print\\('---'\\); print\\(df.columns.tolist\\(\\)\\); print\\('---'\\); print\\(df.shape\\)\")",
+      "mcp__ide__executeCode",
+      "mcp__ide__getDiagnostics",
+      "Bash(cd \"C:/Users/faiz/Desktop/Projectss/nlp-engineering\" && .venv/Scripts/python.exe -c \"import json; nb = json.load\\(open\\('notebook/test.ipynb'\\)\\); print\\('Cells:', len\\(nb['cells']\\)\\); [print\\(f'Cell {i}: {c[\\\\\"cell_type\\\\\"]} - sources: {len\\(c.get\\(\\\\\"source\\\\\", []\\)\\)} lines'\\) for i, c in enumerate\\(nb['cells']\\)]\")",
+      "Bash(cd \"C:/Users/faiz/Desktop/Projectss/nlp-engineering\" && .venv/Scripts/python.exe -c \"import json; nb = json.load\\(open\\('notebook/test.ipynb'\\)\\); print\\('Cells:', len\\(nb['cells']\\)\\); [print\\(f'Cell {i}: {c[\\\\\"cell_type\\\\\"]} - {len\\(c.get\\(\\\\\"source\\\\\", []\\)\\)} lines'\\) for i, c in enumerate\\(nb['cells']\\)]\")"
+    ]
+  }
+}
